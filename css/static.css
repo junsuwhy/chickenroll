@@ -1,7 +1,13 @@
 body{
-  background: #dceefb;
+  background: #B71C1C;
 }
-
+.text{
+  display: none;
+}
+.text{
+  font-size: 100px;
+  color: #FFC107 ;
+}
 .canva{
   position: relative;
 }
