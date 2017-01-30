@@ -1,0 +1,26 @@
+body{
+  background: #dceefb;
+}
+
+.canva{
+  position: relative;
+}
+
+.item-template{
+  position: absolute;
+  bottom: 0;
+  bottom: 50%;
+}
+
+.chi1{
+  left: 25%;
+}
+.chi2{
+  left: 50%;
+}
+.chi3{
+  left: 75%;
+}
+.chi3 img{
+  width: 72px;
+}

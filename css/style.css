@@ -1,0 +1,97 @@
+body{
+  background: #dceefb;
+}
+
+.canva{
+  position: relative;
+}
+
+.item-template{
+  display: none;
+}
+
+.item{
+  position: absolute;
+  bottom: 0;
+}
+
+.chi2{
+/*  top: 10px;*/
+}
+
+.chi3{
+/*  top:72px;*/
+}
+
+.chi3 img{
+  width: 72px;
+}
+
+.text{
+  right: 0;
+  font-size: 100px;
+  color: ghostwhite;
+  overflow: hidden;
+  height: 100%;
+  width: 150px;
+  animation-duration: 60s;
+  animation-name: text;
+}
+
+.text span{
+  position: absolute;
+  text-align: right;
+  width: 1000px;
+  bottom: 0;
+  right: 0;
+}
+
+.animation-action{
+  animation-duration: 10s;
+  animation-name: action;
+  animation-iteration-count: infinite;
+}
+
+@keyframes action{
+  from {
+    left: 100%;
+  }
+  25% {
+    transform: rotate(0);
+  }
+  90%{
+    left: 0%;
+    transform: rotate(-3600deg);
+  }
+  to {
+    left:-20%;
+    transform: rotate(-3600deg);
+  }
+}
+
+
+.animation-peck{
+  animation-duration: .25s;
+  animation-name: peck;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes peck{
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-25deg);
+    
+  }
+}
+
+@keyframes text{
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
