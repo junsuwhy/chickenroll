@@ -1,5 +1,5 @@
 body{
-  background: #dceefb;
+  background: #B71C1C ;
 }
 
 .canva{
@@ -30,7 +30,7 @@ body{
 .text{
   right: 0;
   font-size: 100px;
-  color: ghostwhite;
+  color: #FFC107 ;
   overflow: hidden;
   height: 100%;
   width: 150px;
