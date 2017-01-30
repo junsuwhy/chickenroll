@@ -27,10 +27,18 @@ body{
   width: 72px;
 }
 
+.word,.text{
+  font-size: 50px;
+  color: #FFC107 ;
+}
+
+.text{
+  display: none;
+}
+
+/*
 .text{
   right: 0;
-  font-size: 100px;
-  color: #FFC107 ;
   overflow: hidden;
   height: 100%;
   width: 150px;
@@ -45,11 +53,11 @@ body{
   bottom: 0;
   right: 0;
 }
+*/
 
 .animation-action{
   animation-duration: 10s;
   animation-name: action;
-  animation-iteration-count: infinite;
 }
 
 @keyframes action{
