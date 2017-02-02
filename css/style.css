@@ -56,7 +56,7 @@ body{
 */
 
 .animation-action{
-  animation-duration: 10s;
+  animation-duration: 6s;
   animation-name: action;
 }
 
@@ -72,7 +72,7 @@ body{
     transform: rotate(-3600deg);
   }
   to {
-    left:-20%;
+    left:-120px;
     transform: rotate(-3600deg);
   }
 }
